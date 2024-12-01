@@ -131,6 +131,12 @@ open index.html
     * Provide theme options for better user experience.
 ---
 
+## Hosted Link
+```bash
+https://lovenoelkujur.github.io/code-editor/
+```
+---
+
 ## License
 
 This project is open-source and available under the MIT License.
