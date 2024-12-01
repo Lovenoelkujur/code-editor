@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1 class="title">Code Editor !</h1>
+
+            <div class="code-editor-container">
+                <div class="code-editor html-editor">
+                    <div class="head-editor">
+                        <div class="left-head">
+                            <img src="./html.png" alt="html" width="20rem">
+                            <span>HTML</span>
+                        </div>
+                        <div class="right-head">
+                            <img class="copy copy-html" src="./copy.png" alt="copy" width="20rem">
+                        </div>
+                    </div>
+                    <textarea class="html-input" spellcheck="false"></textarea>
+                </div>
+                <div class="code-editor css-editor">
+                    <div class="head-editor">
+                        <div class="left-head">
+                            <img src="./css.png" alt="css" width="25rem">
+                            <span>CSS</span>
+                        </div>
+                        <div class="right-head">
+                            <img class="copy copy-css" src="./copy.png" alt="copy" width="20rem">
+                        </div>
+                    </div>
+                    <textarea class="css-input" spellcheck="false"></textarea>
+                </div>
+                <div class="code-editor js-editor">
+                    <div class="head-editor">
+                        <div class="left-head">
+                            <img src="./js.png" alt="js" width="25rem">
+                            <span>JS</span>
+                        </div>
+                        <div class="right-head">
+                            <img class="copy copy-js" src="./copy.png" alt="copy" width="20rem">
+                        </div>
+                    </div>
+                    <textarea class="js-input" spellcheck="false"></textarea>
+                </div>
+            </div>
+
+            <!--------------------- Output Container  ------------->
+            <div class="output-container">
+                <div class="output-head">
+                    <span>Output</span>
+                    <img id="save" src="./save.png" alt="save" width="30rem">
+                    <img id="full" src="./up-arrows.png" alt="up-arrow" width="30rem">
+                </div>
+                <iframe id="output"></iframe>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
